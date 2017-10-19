@@ -1,5 +1,7 @@
-import hello from "module";
+import hello from "../createHello";
 
-test("hello(1,2) equal to 3", () => {
-    expect(hello(1,2)).toBe(3)
-})
+test("Check text equal to Hello dima", () => {
+  const forTest = hello();
+  const text = forTest.innerHTML;
+  expect(text).toBe("Hello dima");
+});
