@@ -1,0 +1,25 @@
+{
+    "extends": "fbjs",
+    "parser": "babel-eslint",
+    "rules": {
+        "strict": 0,
+        "quotes": ["error", "double"],
+        "curly": ["error", "all"],
+        "radix": ["error", "always"],
+        "camelcase": [
+            "error",
+            {
+                "properties": "always"
+            }
+        ],
+        "no-var": ["error"],
+        "array-bracket-newline": ["error", { "multiline": true }],
+        "max-len": ["error", 80],
+        "function-paren-newline": ["error", "multiline"],
+        "object-curly-newline": ["error", { "multiline": true }]
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
