@@ -16,7 +16,8 @@
         "array-bracket-newline": ["error", { "multiline": true }],
         "max-len": ["error", 80],
         "function-paren-newline": ["error", "multiline"],
-        "object-curly-newline": ["error", { "multiline": true }]
+        "object-curly-newline": ["error", { "multiline": true }],
+        "indent": ["error", "tab"]
     },
     "env": {
         "browser": true,
